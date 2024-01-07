@@ -19,6 +19,14 @@ a {
     text-decoration: none;
 }
 
+#small-navbar-logo {
+    width: clamp(20px, 3vw, 60px);
+    height: auto;
+    margin: auto;
+    position: absolute;
+    left: 48.5vw;
+}
+
 #home-spotify-logo {
     width: clamp(60px, 30%, 234px);
     height: width;
