@@ -5,3 +5,5 @@ A web application to fetch and display a user's Spotify statistics that are othe
 
 Frontend in progress currently, backend coming at a later time TBD.
 </p>
+
+<img src="photos/st4s-demo-image" alt="Demo home screen">
