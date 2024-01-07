@@ -1,0 +1,97 @@
+html {
+    font-family: 'Gothic A1';
+    background-color: #1DB954;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+li {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#home-spotify-logo {
+    width: clamp(60px, 30%, 234px);
+    height: width;
+    padding-top: 14.688vw;
+    padding-left: 2.865vw;
+}
+
+#home {
+    font-size: clamp(42px, 6.667vw, 128px);
+    font-weight: bold;
+}
+
+#home-black-text {
+    color: #191414;
+    margin-left: 16vw;
+    margin-top: 17vw;
+    padding-bottom: 0;
+}
+
+#home-white-text {
+    color: #FFFFFF;
+    padding-top: 0;
+    margin-top: -6vw;
+    margin-left: 38.385vw;
+}
+
+#home-small-text {
+    color: #191414;
+    font-size: 3vw;
+    margin-top: -6vw;
+    margin-left: 65vw;
+}
+
+#link-spotify-text {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#navbar {
+    background-color: #08065E;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100vw;
+    font-size: clamp(12px, 1.875vw, 36px);
+    font-weight: bold;
+    list-style-type: none;
+    padding-left: none;
+    padding-bottom: clamp(20px, 3.254vw, 62px);
+    padding-top: clamp(10px, 1.626vw, 31px);
+}
+
+#navbar-text {
+    display: inline;
+    color: #FFFFFF;
+    margin-right: 2.5vw;
+    margin-bottom: 2.5vw;
+    margin-top: 2.5vw;
+}
+
+#navbar-text:hover {
+    color: #00F0FF;
+}
+
+#navbar-text-highlighted:hover {
+    color: #FFFFFF;
+}
+
+#navbar-text-highlighted {
+    display: inline;
+    color: #00F0FF;
+    margin-right: 2.5vw;
+    margin-bottom: 2.5vw;
+    margin-top: 2.5vw;
+}
